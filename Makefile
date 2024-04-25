@@ -6,7 +6,7 @@
 #    By: makoch-l <makoch-l@student.42.fr>          +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2024/04/23 15:22:16 by makoch-l          #+#    #+#              #
-#    Updated: 2024/04/25 13:28:10 by makoch-l         ###   ########.fr        #
+#    Updated: 2024/04/25 15:10:16 by makoch-l         ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
@@ -24,7 +24,7 @@ INCLUDE_PATH = include/
 MLX_PATH = minilibx-linux/
 
 SRC_FILES = src/main.c \
-			ft_fdf.c   \
+			src/ft_fdf.c   \
 
 SRC_OBJS= $(SRC_FILES:.c=.o)
 

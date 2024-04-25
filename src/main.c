@@ -6,9 +6,15 @@
 /*   By: makoch-l <makoch-l@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/04/25 13:15:34 by makoch-l          #+#    #+#             */
-/*   Updated: 2024/04/25 13:15:58 by makoch-l         ###   ########.fr       */
+/*   Updated: 2024/04/25 15:20:52 by makoch-l         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "../include/fdf.h"
 
+int	main(void)
+{
+	void	*mlx;
+
+	mlx = mlx_init();
+}
