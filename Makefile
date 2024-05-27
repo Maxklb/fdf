@@ -6,7 +6,7 @@
 #    By: makoch-l <makoch-l@student.42.fr>          +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2024/04/23 15:22:16 by makoch-l          #+#    #+#              #
-#    Updated: 2024/04/25 15:10:16 by makoch-l         ###   ########.fr        #
+#    Updated: 2024/05/27 13:20:02 by makoch-l         ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
@@ -23,13 +23,15 @@ LIBFT_LIB = libft.a
 INCLUDE_PATH = include/
 MLX_PATH = minilibx-linux/
 
-SRC_FILES = src/main.c \
-			src/ft_fdf.c   \
+SRC_FILES = src/main.c		\
+			src/ft_fdf.c	\
 
-SRC_OBJS= $(SRC_FILES:.c=.o)
+SRC_OBJS = $(SRC_FILES:.c=.o)
 
 LIBFT_OBJS = $(LIBFT_PATH)*.OBJS
 LIBFTMAKE = $(MAKE) -C $(LIBFT_PATH)
+
+
 
 all : $(NAME)
 
@@ -41,4 +43,4 @@ fclean : clean
 
 re : fclean all
 
-.PHONY : all clean fclean re pmake
+.PHONY : all clean fclean re
