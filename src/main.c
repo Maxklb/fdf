@@ -6,7 +6,7 @@
 /*   By: makoch-l <makoch-l@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/04/25 13:15:34 by makoch-l          #+#    #+#             */
-/*   Updated: 2024/05/27 14:45:48 by makoch-l         ###   ########.fr       */
+/*   Updated: 2024/05/27 17:36:39 by makoch-l         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -38,7 +38,6 @@ int	main(void)
 	my_mlx_pixel_put(map, 150, 150, 0x00FF0000);
 	my_mlx_pixel_put(map, 151, 150, 0x00FF0000);
 	my_mlx_pixel_put(map, 152, 150, 0x00FF0000);
-	mlx_put_image_to_window(map->mlx_ptr, map->win_ptr, &map->img, 0, 0);
-	
+	mlx_put_image_to_window(map->mlx_ptr, map->win_ptr, map->img, 0, 0);	
 	mlx_loop(map->mlx_ptr);
 }

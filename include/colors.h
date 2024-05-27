@@ -25,6 +25,5 @@
 # define ORANGE 0x00FFA500
 # define PINK 0x00FFC0CB
 # define PURPLE 0x008A2BE2
-# define BROWN 0x00A52A2A
 
 #endif
