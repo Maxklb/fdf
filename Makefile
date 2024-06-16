@@ -6,7 +6,7 @@
 #    By: makoch-l <makoch-l@student.42.fr>          +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2021/08/25 02:35:02 by lraffin           #+#    #+#              #
-#    Updated: 2024/05/27 14:01:58 by makoch-l         ###   ########.fr        #
+#    Updated: 2024/06/16 19:34:23 by makoch-l         ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
@@ -57,7 +57,7 @@ $(NAME): $(OBJ)
 	@echo "$(YELLOW)libft..$(NOC)"
 	@make -sC $(LIBFT_PATH)
 	@make -sC $(MLX_PATH)
-	$(CC) $(CFLAGS) -o $@ $(OBJ) $(LIBFT) $(MLX)
+	@ $(CC) $(CFLAGS) -o $@ $(OBJ) $(LIBFT) $(MLX)
 	@echo "$(GREEN)$@$(NOC)"
 
 $(OBJ_PATH)/%.o: $(SRC_PATH)/%.c $(INCLUDE)/$(NAME).h
