@@ -6,7 +6,7 @@
 /*   By: makoch-l <makoch-l@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/04/25 13:16:02 by makoch-l          #+#    #+#             */
-/*   Updated: 2024/05/27 21:39:58 by makoch-l         ###   ########.fr       */
+/*   Updated: 2024/06/17 16:56:27 by makoch-l         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -22,7 +22,6 @@
 # include "../minilibx-linux/mlx.h"
 # include "../libft/libft.h"
 # include "colors.h"
-# include "error.h"
 
 typedef enum s_key {
 	LEFT_CLICK = 1,
