@@ -2,3 +2,4 @@ a.out
 Makefile.gen
 .vscode
 .gitmodules
+.DS_Store
