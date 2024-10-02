@@ -6,13 +6,13 @@
 #    By: makoch-l <makoch-l@student.42.fr>          +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2021/08/25 02:35:02 by lraffin           #+#    #+#              #
-#    Updated: 2024/09/30 17:15:25 by makoch-l         ###   ########.fr        #
+#    Updated: 2024/10/02 15:27:18 by makoch-l         ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
 ### COMPILATION ###
 CC			= clang
-CFLAGS		= #-Wall -Wextra -Werror
+CFLAGS		= -Wall -Wextra -Werror
 OS			= $(shell uname -s)
 
 ### EXECUTABLE ###

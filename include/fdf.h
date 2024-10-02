@@ -6,13 +6,14 @@
 /*   By: makoch-l <makoch-l@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/04/25 13:16:02 by makoch-l          #+#    #+#             */
-/*   Updated: 2024/09/30 17:13:39 by makoch-l         ###   ########.fr       */
+/*   Updated: 2024/10/02 15:28:57 by makoch-l         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #ifndef FDF_H
 # define FDF_H
 
+// Includes
 # include<stdio.h>
 # include <unistd.h>
 # include <stdlib.h>
@@ -24,10 +25,12 @@
 # include "../libft/libft.h"
 # include "colors.h"
 
+// Macros
 # define WIDTH 1000
 # define HEIGHT 800
 # define KEY_ESC 53
 
+// Structure definitions
 typedef struct s_point
 {
 	int	x;

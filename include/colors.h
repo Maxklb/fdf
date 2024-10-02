@@ -6,13 +6,14 @@
 /*   By: makoch-l <makoch-l@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/05/27 13:49:16 by makoch-l          #+#    #+#             */
-/*   Updated: 2024/05/27 14:22:02 by makoch-l         ###   ########.fr       */
+/*   Updated: 2024/10/02 15:29:20 by makoch-l         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #ifndef COLORS_H
 # define COLORS_H
 
+// Colors
 # define BLACK 0x00000000
 # define GREY 0x00808080
 # define WHITE 0x00FFFFFF
