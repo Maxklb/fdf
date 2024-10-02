@@ -6,7 +6,7 @@
 #    By: makoch-l <makoch-l@student.42.fr>          +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2021/08/25 02:35:02 by lraffin           #+#    #+#              #
-#    Updated: 2024/06/16 19:34:23 by makoch-l         ###   ########.fr        #
+#    Updated: 2024/09/30 17:15:25 by makoch-l         ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
@@ -35,7 +35,13 @@ endif
 
 
 ### SOURCE FILES ###
-SOURCES = main.c
+SOURCES = 	main.c \
+			ft_error.c \
+			ft_events.c \
+			ft_fdf.c \
+			ft_parse.c \
+			ft_utils.c \
+			ft_draw.c
 
 ### OBJECTS ###
 SRC = $(addprefix $(SRC_PATH)/,$(SOURCES))

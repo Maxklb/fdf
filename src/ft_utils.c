@@ -1,27 +1,25 @@
 /* ************************************************************************** */
 /*                                                                            */
 /*                                                        :::      ::::::::   */
-/*   main.c                                             :+:      :+:    :+:   */
+/*   ft_utils.c                                         :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
 /*   By: makoch-l <makoch-l@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2024/04/25 13:15:34 by makoch-l          #+#    #+#             */
-/*   Updated: 2024/09/30 17:07:09 by makoch-l         ###   ########.fr       */
+/*   Created: 2024/09/30 17:07:30 by makoch-l          #+#    #+#             */
+/*   Updated: 2024/09/30 17:07:38 by makoch-l         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "../include/fdf.h"
 
-int	main(int argc, char **argv)
+int	get_color(t_point start, t_point end)
 {
-	t_fdf	*fdf;
+	// Simple color calculation logic
+	return (0xFFFFFF);
+}
 
-	if (argc != 2)
-		ft_error("Usage: ./fdf <map_file>");
-	fdf = init_fdf();
-	parse_map(argv[1], fdf);
-	mlx_key_hook(fdf->win, handle_key, fdf);
-	mlx_loop(fdf->mlx);
-	free_fdf(fdf);
-	return (0);
+void	free_fdf(t_fdf *fdf)
+{
+	mlx_destroy_window(fdf->mlx, fdf->win);
+	free(fdf);
 }
